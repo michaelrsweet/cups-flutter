@@ -1,15 +1,22 @@
-# cups_flutter
+CUPS Plugin for Flutter
+=======================
 
-A new Flutter plugin project.
+This plugin provides access to some CUPS 3.x APIs and tools, specifically:
 
-## Getting Started
+- DNS-SD discovery
+- `ipptool`
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Legal Stuff
+-----------
 
+Copyright © 2025 by Michael R Sweet.
+
+This software is provided under the terms of the Apache License, Version 2.0.
+A copy of this license can be found in the file `LICENSE`.  Additional legal
+information is provided in the file `NOTICE`.
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations under the License.
