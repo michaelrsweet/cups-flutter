@@ -1,7 +1,8 @@
 CUPS Plugin for Flutter
 =======================
 
-This plugin provides access to some CUPS 3.x APIs and tools, specifically:
+This plugin provides access to some CUPS 3.x APIs and tools from Flutter,
+specifically:
 
 - DNS-SD discovery
 - `ipptool`

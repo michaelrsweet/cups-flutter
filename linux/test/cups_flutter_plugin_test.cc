@@ -1,3 +1,12 @@
+//
+// CUPS Linux plugin for Flutter.
+//
+// Copyright © 2025 by Micharl R Sweet.
+//
+// Licensed under Apache License v2.0.  See the file "LICENSE" for more
+// information.
+//
+
 #include <flutter_linux/flutter_linux.h>
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>

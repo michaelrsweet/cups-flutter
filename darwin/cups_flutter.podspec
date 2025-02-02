@@ -1,17 +1,26 @@
 #
+# CUPS iOS/macOS plugin for Flutter.
+#
+# Copyright © 2025 by Micharl R Sweet.
+#
+# Licensed under Apache License v2.0.  See the file "LICENSE" for more
+# information.
+#
+
+#
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
 # Run `pod lib lint cups_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
   s.name             = 'cups_flutter'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.version          = '3.0.0'
+  s.summary          = 'CUPS Plugin for Flutter.'
   s.description      = <<-DESC
-A new Flutter plugin project.
+This plugin provides access to some CUPS 3.x APIs and tools from Flutter.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://www.msweet.org/'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Michael R Sweet' => 'webmaster@msweet.org' }
 
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
@@ -22,9 +31,11 @@ A new Flutter plugin project.
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
   # s.resource_bundles = {'cups_flutter_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
-  s.dependency 'FlutterMacOS'
-
-  s.platform = :osx, '10.11'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
-end
+
+  s.ios.dependency 'Flutter'
+  s.osx.dependency 'FlutterMacOS'
+  s.ios.deployment_target = '14.0'
+  s.osx.deployment_target = '11.0'
+  end

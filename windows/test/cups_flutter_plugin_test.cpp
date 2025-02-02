@@ -1,3 +1,12 @@
+//
+// CUPS Windows plugin for Flutter.
+//
+// Copyright © 2025 by Micharl R Sweet.
+//
+// Licensed under Apache License v2.0.  See the file "LICENSE" for more
+// information.
+//
+
 #include <flutter/method_call.h>
 #include <flutter/method_result_functions.h>
 #include <flutter/standard_method_codec.h>

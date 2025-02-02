@@ -1,3 +1,12 @@
+//
+// CUPS Windows plugin for Flutter.
+//
+// Copyright © 2025 by Micharl R Sweet.
+//
+// Licensed under Apache License v2.0.  See the file "LICENSE" for more
+// information.
+//
+
 #include "cups_flutter_plugin.h"
 
 // This must be included before many other Windows headers.

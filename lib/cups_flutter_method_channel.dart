@@ -1,3 +1,12 @@
+//
+// CUPS plugin for Flutter.
+//
+// Copyright © 2025 by Micharl R Sweet.
+//
+// Licensed under Apache License v2.0.  See the file "LICENSE" for more
+// information.
+//
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

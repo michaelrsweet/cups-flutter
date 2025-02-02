@@ -1,3 +1,12 @@
+#
+# CUPS plugin for Flutter.
+#
+# Copyright © 2025 by Micharl R Sweet.
+#
+# Licensed under Apache License v2.0.  See the file "LICENSE" for more
+# information.
+#
+
 include: package:flutter_lints/flutter.yaml
 
 # Additional information about this file can be found at
